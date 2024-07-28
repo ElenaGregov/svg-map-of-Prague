@@ -1,0 +1,47 @@
+.scheme {
+  height: 450px;
+  width: 738px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.scheme svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 450px;
+  width: 738px;
+}
+
+.scheme polygon {
+  fill: #4db9da;
+  opacity: 0.8;
+  cursor: pointer;
+  stroke: rgb(1, 59, 61);
+  stroke-width: 2.5;
+}
+
+.scheme-item {
+  position: absolute;
+  cursor: pointer;
+}
+
+.scheme-name {
+  display: block;
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+  line-height: 13px;
+}
+
+.scheme polygon:hover,
+#hover {
+  fill: #ff0303;
+}
+
+.polygonText {
+  text-anchor: middle;
+  fill: black;
+  font-size: 15;
+  font-weight: 400;
+}
